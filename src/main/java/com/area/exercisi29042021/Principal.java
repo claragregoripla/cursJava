@@ -28,7 +28,7 @@ public class Principal {
 
         //més recomanale "forEach", que el "for" per Orientació a objectes, TOT i que forEach és una mica més lent
         for (Empleado empleado : empleadoList) {// per a cada empleat de l'array empleats
-            sueldoTotal = sueldoTotal + +empleado.sueldo;
+            sueldoTotal = sueldoTotal + +empleado.getSueldo();
         }
         System.out.println("El sueldo total es " + sueldoTotal);
 
